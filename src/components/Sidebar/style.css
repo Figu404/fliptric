@@ -1,0 +1,15 @@
+.Sidebar {
+  display: flex;
+  border-right: 2px solid var(--color-primary);
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.Sidebar ul {
+  list-style: none;
+   margin: 16px;
+}
+
+.Sidebar li {
+  margin-bottom: 16px;
+}

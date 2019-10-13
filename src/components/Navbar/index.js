@@ -1,18 +1,18 @@
 import React from 'react';
 import './style.css';
 
+
 function Navbar() {
   return (
     <div className="Navbar">
       <ul>
         <li>
-          loga
+          <h1>
+            fliptric
+          </h1>
         </li>
-        <li>
-          nånting
-        </li>
-        <li>
-          hejdå!
+        <li className="Searchbar">
+          <input type="text" placeholder="Sök.." name="search"/>
         </li>
       </ul>
     </div>
