@@ -1,8 +1,10 @@
 .App {
   display: grid;
   grid-template-columns: 0.1fr 1fr;
-  grid-template-rows: 80px 1fr 80px;
-  min-width: 100vw;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "navbar navbar"
+    "sidebar article"
+    "footer footer";
   min-height: 100vh;
 }
-

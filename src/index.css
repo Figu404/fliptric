@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 :root {
   --color-primary: #d8711d;
 }
@@ -14,6 +13,6 @@
 }
 
 h1, h2, h3, h4 {
-  font-family: 'DM Serif Text', serif;
+  font-family: 'Fjalla One', serif;
   font-weight: 300;
 }

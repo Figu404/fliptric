@@ -1,7 +1,22 @@
 .Footer {
-    grid-column: 1 / 3;
-    grid-row: 3/4;
-    border-top: 2px solid black;
+    padding: 64px 0 64px;
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+}
+
+.Footer img {
+    max-width: 24px;
+    max-height: 24px;
+    margin: 0 24px;
+}
+
+.Footer p {
+    text-align: center;
+    max-width: 600px;
+    margin: 24px 0;
 }
 
 .Footer ul {
@@ -9,4 +24,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.Footer h1 {
+    font-family: 'Righteous', cursive;
 }
