@@ -4,3 +4,17 @@
     object-fit: cover;
 }
 
+.Product a {
+    color: black;
+    text-decoration: none;
+}
+
+.Product a {
+    transition: all 2000ms cubic-bezier(0.1,.11,.1,1.2);
+    display: block;
+}
+
+.Product a:hover {
+    transform: scale(0.95) rotate3d(0, 1, 0, 720deg);
+    opacity: 0.8;
+}

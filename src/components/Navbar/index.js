@@ -1,12 +1,16 @@
 import React from 'react';
 import './style.css';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="Navbar">
-      <h1>
-        fliptric
-      </h1>
+      <Link to="/">
+        <h1>
+          fliptric
+        </h1>
+      </Link>
+      
       <ul>
         <li>
           Kompletta skatboards

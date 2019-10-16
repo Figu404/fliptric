@@ -1,16 +1,19 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './style.css';
 
 function Product(props) {
   return (
     <div className="Product">
-      <img src={props.img} alt="Smiley face"/>
-      <h2>
-        {props.title}
-      </h2>
-      <p>
-        {props.price}
-      </p> 
+      <Link to="/product">
+        <img src={props.img} alt="Skateboard"/>
+        <h2>
+          {props.title}
+        </h2>
+        <p>
+          {props.price}
+        </p>
+      </Link>
     </div>
   );
 }
