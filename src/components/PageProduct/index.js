@@ -8,9 +8,25 @@ function PageProduct(props) {
   return (
     <div className="PageProduct">
       <Navbar/>
-      <img src={skateboard1}/>
-      <h1>Kalle</h1>
-      <h2>SUPER-DUPER-REA!!</h2>
+      <div className="Center">
+        <img src={skateboard1}/>
+        <div>
+          <h1>Kalle</h1>
+          <h3> Pris: 100kr</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas nunc maximus sapien molestie viverra. In hac habitasse platea dictumst. Nam a gravida mauris, rutrum maximus nulla. Nunc pretium efficitur turpis ac vulputate. Vestibulum erat lectus, facilisis eu felis vel, egestas consectetur quam. Integer venenatis nisi dolor, vel dignissim turpis vestibulum ac. Nunc in placerat lorem, id interdum tortor.
+          </p>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas nunc maximus sapien molestie viverra. In hac habitasse platea dictumst. Nam a gravida mauris, rutrum maximus nulla. Nunc pretium efficitur turpis ac vulputate. Vestibulum erat lectus, facilisis eu felis vel, egestas consectetur quam. Integer venenatis nisi dolor, vel dignissim turpis vestibulum ac. Nunc in placerat lorem, id interdum tortor.
+          </p>
+          <div className="Buy">
+             <h3>
+               Lägg i varukorgen
+             </h3>
+          </div>
+        </div> 
+      </div>
+      
 
       <Footer/>
     </div>
