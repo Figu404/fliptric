@@ -2,7 +2,8 @@
   width: 50%;
   height: 500px;
   object-fit: cover;
-  margin-right: 64px;
+  margin-right: 100px;
+  transition: all 1000ms ease-in-out;
 }
 
 .PageProduct h1 {
@@ -29,7 +30,17 @@
   transition: all 100ms ease-in-out;
 }
 
-
 .PageProduct .Buy:hover {
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 800px){
+  .PageProduct div.Center {
+    flex-direction: column;
+  }
+  .PageProduct div.Center img{
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
 }

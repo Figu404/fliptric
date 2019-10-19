@@ -8,3 +8,29 @@
     "footer footer";
   min-height: 100vh;
 }
+
+.PageHome .items {
+  margin: 64px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+  grid-area: article;
+}
+
+@media only screen and (max-width: 1200px) {
+  .PageHome .items {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .PageHome .items {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .PageHome .items {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
