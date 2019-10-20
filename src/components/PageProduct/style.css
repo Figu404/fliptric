@@ -21,17 +21,8 @@
   margin-bottom: 24px;
 }
 
-.PageProduct .Buy {
-  text-align: center;
-  color: aliceblue;
-  background-color: rgb(0, 0, 0);
-  border-radius: 20px;
-  padding: 10px;
-  transition: all 100ms ease-in-out;
-}
-
-.PageProduct .Buy:hover {
-  opacity: 0.8;
+.PageProduct .Button {
+  width: 100%;
 }
 
 @media only screen and (max-width: 800px){

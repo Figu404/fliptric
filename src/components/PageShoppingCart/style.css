@@ -1,5 +1,12 @@
-.PageShoppingCart div {
+.PageShoppingCart h1.title {
+  margin-bottom: 32px;
+}
+
+
+
+.PageShoppingCart div.main {
   display: flex;  
   flex-direction: column;
-  align-content: center;
+  align-items: center;
+  margin: 32px 0;
 }
