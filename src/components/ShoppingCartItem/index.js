@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './style.css';
+import Button from "../Button"
 
 function ShoppingCartItem(props) {
   return (
@@ -16,18 +17,15 @@ function ShoppingCartItem(props) {
       </p>
       <div className="description">
         <p>
-        två stycken fhdjskla hfjdskl hfjdkslah fjdkslafh jdsklah fjdska
+          två stycken fhdjskla hfjdskl hfjdkslah fjdkslafh jdsklah fjdska
         </p>
         <p>
           lorem jfdsklöf jkdlaöfj kdsöaj fkldsöaj fklödsaj kflöds
         </p>
       </div>
-      
-      <div className="delete">
-        <p>
-          Ta bort
-        </p>
-      </div>
+      <Button small>
+        Ta bort
+      </Button>
     </li>
   );
 }

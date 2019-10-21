@@ -18,7 +18,7 @@
     grid-area: price;
 }
 
-.ShoppingCartItem div.delete {
+.ShoppingCartItem Button {
     grid-area: delete;
 }
 
