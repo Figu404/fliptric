@@ -11,20 +11,24 @@ function PageShoppingCart(props) {
   return (
     <div className="PageShoppingCart">
       <Navbar/>
-      <div className="main">
-        <h1 className="title">Varukorg</h1>
-        <ul>
-          <ShoppingCartItem  img={skateboard1} title="Kalle" price="200kr"/>
-          <ShoppingCartItem  img={skateboard1} title="Kalle" price="200kr"/>
-          <ShoppingCartItem  img={skateboard1} title="Kalle" price="200kr"/>
-          <ShoppingCartItem  img={skateboard1} title="Kalle" price="200kr"/>
-          <ShoppingCartItem  img={skateboard1} title="Kalle" price="200kr"/>
-          <ShoppingCartItem  img={skateboard1} title="Kalle" price="200kr"/>
-        </ul>
-        <Button>Gå till kasssan</Button>
+      <h1 className="title">Varukorg</h1>
+      <div className="x">
+        <div className="y">
+          
+          <ul>
+            <ShoppingCartItem  img={skateboard1} title="Kalle" price={200} sale={0.5}/>
+            <ShoppingCartItem  img={skateboard1} title="Kalle" price={200}/>
+            <ShoppingCartItem  img={skateboard1} title="Kalle" price={200}/>
+            <ShoppingCartItem  img={skateboard1} title="Kalle" price={200}/>
+            <ShoppingCartItem  img={skateboard1} title="Kalle" price={200}/>
+            <ShoppingCartItem  img={skateboard1} title="Kalle" price={200}/>
+          </ul>
+        </div>
+        <div className="information">
+          <Button className="checkout">Gå till kasssan</Button>
+        </div>
       </div>
       <Footer/>
-
     </div>
   );
 }

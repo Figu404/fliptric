@@ -9,23 +9,33 @@ function Navbar() {
       <Logo/>
       <ul>
         <li>
-          Kompletta skatboards
+          <Link>
+            Kompletta skatboards
+          </Link>
         </li>
         <li>
-          Brädor
+          <Link>
+            Brädor
+          </Link>
         </li>
         <li>
-          Hjul
+          <Link>
+            Hjul 
+          </Link>
         </li>
         <li>
-          Truckar
+          <Link>
+            Truckar
+          </Link>
         </li>
         <li>
-          Kulager
+          <Link>
+            Kulager
+          </Link>
         </li>
         <li>
           <Link to="/ShoppingCart">
-            Shopping Cart
+            Varukorg
           </Link>
         </li>
       </ul>

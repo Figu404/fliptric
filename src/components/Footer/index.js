@@ -10,13 +10,13 @@ function Footer() {
     <div className="Footer">
      <ul>
        <li>
-         <img src={facebook}/>
+         <img src={facebook} alt="facebook"/>
        </li>
        <li>
-        <img src={instagram}/>
+        <img src={instagram} alt="instagram"/>
        </li>
        <li>
-        <img src={twitter}/>
+        <img src={twitter} alt="twitter"/>
        </li>
      </ul>
      <p>

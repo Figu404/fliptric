@@ -2,19 +2,74 @@
     width: 100%;
     height: 200px;
     object-fit: cover;
+    grid-area: img;
+    margin-bottom: 8px;
+}
+
+.Product a h2 {
+    grid-area: title;
+}
+
+.Product a .prices {
+    display: flex;
+    grid-area: price;
+}
+
+.Product a .sale {
+    background: var(--color-primary);
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    grid-area: sale;
+    height: 22px;
+    align-self: center;
+    transform: rotate3d(0.2, 0, 0.6, 20deg);
+    box-shadow: 2px 2px 3px rgba(255, 145, 0, 0.2);
+}
+
+.Product a .prices .oldPrice {
+    text-decoration: line-through;
+    margin-right: 16px;
 }
 
 .Product a {
     color: black;
     text-decoration: none;
-}
-
-.Product a {
-    transition: all 2000ms cubic-bezier(0.1,.11,.1,1.2);
+    transition: all 300ms cubic-bezier(0.1,.11,.1,1.2);
     display: block;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "img img img"
+      "title . sale"
+      "price price sale";
 }
 
 .Product a:hover {
-    transform: scale(0.95) rotate3d(0, 1, 0, 720deg);
+    transform: scale(0.95);
     opacity: 0.8;
 }
+
+.Product a:hover .sale {
+    animation-name: looool2;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 250ms;
+}
+
+@keyframes looool2 {
+    0% {
+      transform: rotate3d(0.2, 0, 0.6, 20deg);
+    }
+    25% {
+       transform: rotate3d(0.2, 0, 0.6, 25deg);
+    }
+    65% {
+        transform: rotate3d(0.2, 0, 0.6, 15deg);
+    }
+    100% {
+        transform: rotate3d(0.2, 0, 0.6, 20deg);
+    }
+  }

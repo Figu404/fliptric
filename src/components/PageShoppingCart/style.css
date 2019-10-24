@@ -1,10 +1,23 @@
-.PageShoppingCart h1.title {
-  margin-bottom: 32px;
+.PageShoppingCart .main ul {
+  margin: 32px 0px;
 }
 
+.PageShoppingCart h1.title{
+  margin-top: 32px;
+  text-align: center;
+}
 
+.PageShoppingCart .information {
+  margin: 64px 64px;
+}
 
-.PageShoppingCart div.main {
+.PageShoppingCart div.x {
+  display: flex;  
+  flex-direction: flex;
+  justify-content: center;
+}
+
+.PageShoppingCart div.y {
   display: flex;  
   flex-direction: column;
   align-items: center;

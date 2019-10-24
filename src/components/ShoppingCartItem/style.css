@@ -16,6 +16,7 @@
 
 .ShoppingCartItem .price {
     grid-area: price;
+    text-align: center;
 }
 
 .ShoppingCartItem Button {

@@ -10,7 +10,7 @@ function PageProduct(props) {
     <div className="PageProduct">
       <Navbar/>
       <div className="Center">
-        <img src={skateboard1}/>
+        <img src={skateboard1} alt="Skateboard"/>
         <div>
           <h1>Kalle</h1>
           <h3> Pris: 100kr</h3>

@@ -10,9 +10,14 @@ function Product(props) {
         <h2>
           {props.title}
         </h2>
-        <p>
-          {props.price}
-        </p>
+        <div className="prices">
+          <p className={props.sale != null && "oldPrice"}>
+            {props.price} kr
+          </p>
+          {props.sale != null && <p>{props.price - props.price*props.sale} kr</p>} 
+             
+        </div>
+        {props.sale != null && <p className="sale">REA {props.sale*100}%</p>} 
       </Link>
     </div>
   );

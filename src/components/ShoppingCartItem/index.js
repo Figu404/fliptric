@@ -12,9 +12,9 @@ function ShoppingCartItem(props) {
       <h2 className="title">
         {props.title}
       </h2>
-      <p className="price">
-        {props.price}
-      </p>
+      <div className="price">
+        {props.sale != null ? <p>{props.price - props.price*props.sale} kr</p> : <p>{props.price} kr</p>}
+      </div>
       <div className="description">
         <p>
           två stycken fhdjskla hfjdskl hfjdkslah fjdkslafh jdsklah fjdska

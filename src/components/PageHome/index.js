@@ -13,19 +13,19 @@ function PageHome() {
       <Navbar/>
       <Sidebar/>
       <div className="items">
-        <Product img={skateboard1} title="Kalle" price="200kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="Fredrik" price="100kr"/>
-        <Product img={skateboard2} title="fg" price="100kr"/>
-        <Product img={skateboard2} title="tj" price="100kr"/>
+        <Product img={skateboard1} title="Kalle" price={200} sale={0.5}/>
+        <Product img={skateboard2} title="Bertil" price={200} sale={0.2}/>
+        <Product img={skateboard2} title="Fredrik" price={200}/>
+        <Product img={skateboard2} title="Fredrik" price={200} sale={0.4}/>
+        <Product img={skateboard2} title="Fredrik" price={200}/>
+        <Product img={skateboard2} title="Fredrik" price={200}/>
+        <Product img={skateboard2} title="Fredrik" price={200}/>
+        <Product img={skateboard2} title="Fredrik" price={200}/>
+        <Product img={skateboard2} title="Fredrik" price={200}/>
+        <Product img={skateboard2} title="Fredrik" price={200}/>
+        <Product img={skateboard2} title="Fredrik" price={200}/>
+        <Product img={skateboard2} title="fg" price={200}/>
+        <Product img={skateboard2} title="tj" price={200}/>
       </div>
       <Footer/>
     </div>
