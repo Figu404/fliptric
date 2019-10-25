@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-import facebook from "../../assets/img/facebook.svg";
-import instagram from "../../assets/img/instagram.svg";
-import twitter from "../../assets/img/twitter.svg";
+import facebook from "../../assets/img/facebook.png";
+import instagram from "../../assets/img/instagram.png";
+import twitter from "../../assets/img/twitter.png";
 import Logo from "../Logo"
 
 function Footer() {
@@ -20,7 +20,7 @@ function Footer() {
        </li>
      </ul>
      <p>
-      H&M:s affärskoncept går ut på att erbjuda mode och kvalitet till bästa pris på ett hållbart sätt. Sedan H&M grundades 1947 har det vuxit och blivit ett av världens ledande modeföretag. Innehållet på denna webbplats är upphovsrättsskyddat och tillhör H & M Hennes & Mauritz AB.
+      fliptrics affärskoncept går ut på att erbjuda mode och kvalitet till bästa pris på ett hållbart sätt. Sedan fliptric grundades 1947 har det vuxit och blivit ett av världens ledande modeföretag. Innehållet på denna webbplats är upphovsrättsskyddat och tillhör fliptric flip & tric AB.
      </p>
      <Logo/>
     </div>
